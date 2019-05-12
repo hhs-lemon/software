@@ -1,0 +1,28 @@
+
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+   div{
+	width:100px;
+	height:200px;
+	background:pink;
+transition:all 1000ms linear;
+	}
+   div:hover{
+	width:600px;
+	height:500px;
+	background:red;
+	left:800px;
+	top:500px;
+	
+}
+  </style>
+  <link rel="stylesheet" href="myStyle.css">
+ </head>
+ <body>
+    <div></div>
+ </body>
+</html>
